@@ -46,7 +46,10 @@ emitter.on('connect', async (data) => {
   let connection = await vc.join();
   let dispatcher = connection.play(
     data.radio.youtube
-      ? ytdl(data.radio.link, { quality: 'highestaudio' })
+      ? ytdl(data.radio.link, {
+          quality: 'highestaudio',
+          highWaterMark: 1 << 25,
+        })
       : data.radio.link
   );
 
@@ -73,7 +76,6 @@ emitter.on('refresh', async (data) => {
 
 client.once('ready', () => {
   avatar = client.user.displayAvatarURL();
-  console.log(client.voice.connections);
   collection.find().then((data) => {
     data.forEach((i) => {
       emitter.emit('connect', i);
