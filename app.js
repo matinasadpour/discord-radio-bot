@@ -228,7 +228,7 @@ client.on('message', async (message) => {
             name: client.user.username,
             icon_url: avatar,
           },
-          description: `:warning: ***Invalid command!*** \n\nUse \`r7; h\` or \`r7; help\` for bot instructions`,
+          description: `:warning: ***Invalid command!*** \n\nUse \`${process.env.PREFIX} h\` or \`${process.env.PREFIX} help\` for bot instructions`,
         },
       });
     }
@@ -431,7 +431,7 @@ client.on('message', async (message) => {
           name: client.user.username,
           icon_url: avatar,
         },
-        description: `:warning: ***Invalid command!*** \n\nUse \`r7; h\` or \`r7; help\` for bot instructions`,
+        description: `:warning: ***Invalid command!*** \n\nUse \`${process.env.PREFIX} h\` or \`${process.env.PREFIX} help\` for bot instructions`,
       },
     });
   }
