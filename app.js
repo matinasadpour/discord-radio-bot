@@ -82,17 +82,14 @@ client.once('ready', () => {
 });
 
 client.on('message', async (message) => {
-  if (!message.content.startsWith(process.env.PREFIX) || message.author.bot)
-    return;
+  let pre = message.content.toLowerCase();
+  if (!pre.startsWith(process.env.PREFIX) || message.author.bot) return;
 
   const textChannel = message.channel;
   const voiceChannel = message.member.voice.channel;
 
-  const args = message.content
-    .slice(process.env.PREFIX.length)
-    .trim()
-    .split(/ +/);
-  let command = args.shift().toLowerCase();
+  const args = pre.slice(process.env.PREFIX.length).trim().split(/ +/);
+  let command = args.shift();
 
   if (command === 'h' || command === 'help') {
     return textChannel.send({
@@ -167,7 +164,7 @@ client.on('message', async (message) => {
         },
       });
     } else {
-      command = args.shift().toLowerCase();
+      command = args.shift();
       let genres = Object.keys(radio);
       if (genres.includes(command)) {
         let genre = command;
@@ -233,7 +230,7 @@ client.on('message', async (message) => {
         },
       });
     }
-    command = args.shift().toLowerCase();
+    command = args.shift();
     let genres = Object.keys(radio);
     if (genres.includes(command)) {
       let genre = command;
@@ -249,7 +246,7 @@ client.on('message', async (message) => {
           },
         });
       } else {
-        command = +args.shift().toLowerCase();
+        command = +args.shift();
         if (isNaN(command) || command < 1 || command > radio[genre].length) {
           return textChannel.send({
             embed: {
