@@ -4,7 +4,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-one
-    volumes: /home/ubuntu/.env/.radio-one:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-one:/app/.env:ro'
     restart: always
 
   radio-two:
@@ -12,7 +13,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-two
-    volumes: /home/ubuntu/.env/.radio-two:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-two:/app/.env:ro'
     restart: always
 
   radio-three:
@@ -20,7 +22,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-three
-    volumes: /home/ubuntu/.env/.radio-three:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-three:/app/.env:ro'
     restart: always
 
   radio-four:
@@ -28,7 +31,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-four
-    volumes: /home/ubuntu/.env/.radio-four:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-four:/app/.env:ro'
     restart: always
 
   radio-five:
@@ -36,7 +40,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-five
-    volumes: /home/ubuntu/.env/.radio-five:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-five:/app/.env:ro'
     restart: always
 
   radio-six:
@@ -44,7 +49,8 @@ services:
     depends_on:
       - 'database'
     container_name: radio-six
-    volumes: /home/ubuntu/.env/.radio-six:/app/.env:ro
+    volumes:
+      - '/home/ubuntu/.env/.radio-six:/app/.env:ro'
     restart: always
 
   database:
