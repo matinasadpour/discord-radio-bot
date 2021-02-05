@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "2.0.0",
+  "description": "Discord Radio Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Matin Asadpour",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "latest",
+    "monk": "latest",
+    "dotenv": "latest",
+    "ytdl-core": "latest",
+
+    "ffmpeg": "latest",
+    "ffmpeg-static": "latest",
+    "@discordjs/opus": "latest",
+
+    "zlib-sync": "latest",
+    "erlpack": "github:discord/erlpack",
+    "sodium": "latest",
+    "bufferutil": "latest",
+    "utf-8-validate": "latest"
+  }
+}

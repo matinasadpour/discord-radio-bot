@@ -1,0 +1,53 @@
+services:
+  radio-one:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-one
+    volumes: /home/ubuntu/.env/.radio-one:/app/.env:ro
+    restart: always
+
+  radio-two:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-two
+    volumes: /home/ubuntu/.env/.radio-two:/app/.env:ro
+    restart: always
+
+  radio-three:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-three
+    volumes: /home/ubuntu/.env/.radio-three:/app/.env:ro
+    restart: always
+
+  radio-four:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-four
+    volumes: /home/ubuntu/.env/.radio-four:/app/.env:ro
+    restart: always
+
+  radio-five:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-five
+    volumes: /home/ubuntu/.env/.radio-five:/app/.env:ro
+    restart: always
+
+  radio-six:
+    image: 'matinasadpour/discord-radio-bot:latest'
+    depends_on:
+      - 'database'
+    container_name: radio-six
+    volumes: /home/ubuntu/.env/.radio-six:/app/.env:ro
+    restart: always
+
+  database:
+    image: 'mongo:latest'
+    container_name: database
+    restart: always

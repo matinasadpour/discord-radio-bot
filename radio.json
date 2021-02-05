@@ -1,0 +1,209 @@
+{
+    "hip-hop":[
+        {
+            "radio": "bigFM",
+            "name": "HIP-HOP",
+            "link": "https://streams.bigfm.de/bigfm-hiphop-128-aac",
+            "youtube": false
+        },
+        {
+            "radio": "bigFM",
+            "name": "US RAP & HIP-HOP",
+            "link": "https://streams.bigfm.de/bigfm-usrap-128-aac",
+            "youtube": false
+        },
+        {
+            "radio": "bigFM",
+            "name": "OLDSCHOOL RAP & HIP-HOP",
+            "link": "https://streams.bigfm.de/bigfm-oldschool-128-aac",
+            "youtube": false
+        }
+    ],
+    "lo-fi":[
+        {
+            "radio": "ChilledCow",
+            "name": "lofi hip hop radio - beats to relax/study to",
+            "link": "https://youtu.be/5qap5aO4i9A",
+            "youtube": true
+        },
+        {
+            "radio": "ChilledCow",
+            "name": "lofi hip hop radio - beats to sleep/chill to",
+            "link": "https://youtu.be/DWcJFNfaw9c",
+            "youtube": true
+        },  
+        {
+            "radio": "STEEZYASFUCK",
+            "name": "coffee shop radio // 24/7 lofi hip-hop beats",
+            "link": "https://youtu.be/-5KAN9_CzSA",
+            "youtube": true
+        },
+        {
+            "radio": "Chillhop Music",
+            "name": "Chillhop Radio - jazzy & lofi hip hop beats 🐾",
+            "link": "https://youtu.be/5yx6BWlEVcY",
+            "youtube": true
+        },
+        {
+            "radio": "the bootleg boy",
+            "name": "lofi hip hop radio - sad & sleepy beats 😴",
+            "link": "https://youtu.be/l7TxwBhtTUY",
+            "youtube": true
+        }
+
+    ],
+    "metal":[
+        {
+            "radio": "Big R Radio",
+            "name": null,
+            "link": "http://bigrradio.cdnstream1.com/5186_128",
+            "youtube": false
+        },
+        {
+            "radio": "Radio Bloodstream",
+            "name": null,
+            "link": "https://uk1.internet-radio.com/proxy/bloodstream?mp=/live",
+            "youtube": false
+        },
+        {
+            "radio": "The Faction",
+            "name": null,
+            "link": "http://s35.myradiostream.com:31166/stream",
+            "youtube": false
+        }
+    ],
+    "rock":[
+        {
+            "radio": "Planet Radio",
+            "name": "Planet Rock",
+            "link": "https://stream-mz.planetradio.co.uk/planetrock.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 00s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute00shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 20s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute20shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 60s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute60shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 70s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute70shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 80s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute80shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute 90s",
+            "link": "https://stream-ar.planetradio.co.uk/absolute90shigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute Radio",
+            "link": "https://stream-ar.planetradio.co.uk/absoluteradiohigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Planet Radio",
+            "name": "Absolute Classic Rock",
+            "link": "https://stream-ar.planetradio.co.uk/absoluteclassicrockhigh.aac",
+            "youtube": false
+        }
+    ],
+    "deep-house":[
+        {
+            "radio": "MoveDaHouse",
+            "name": null,
+            "link": "https://uk7.internet-radio.com/proxy/movedahouse?mp=/stream;",
+            "youtube": false
+        },
+        {
+            "radio": "Centova Cast",
+            "name": null,
+            "link": "http://37.187.93.104:8589/deep/",
+            "youtube": false
+        }
+    ],
+    "meditation":[
+        {
+            "radio": "Yellow Brick Cinema - Relaxing Music",
+            "name": "🔴 Relaxing Music 24/7, Meditation Music, Healing Music, Spa Music, Zen, Sleep, Yoga, Study Music",
+            "link": "https://youtu.be/KO8Ing0d21A",
+            "youtube": true
+        },
+        {
+            "radio": "Yellow Brick Cinema - Relaxing Music",
+            "name": "🔴 Tibetan Meditation Music 24/7, Healing Music, Meditation Music, Spa, Study Music, Sleep, Yoga",
+            "link": "https://youtu.be/rsVWnhTkFuc",
+            "youtube": true
+        },
+        {
+            "radio": "Yellow Brick Cinema - Relaxing Music",
+            "name": "🔴 Sleep Music 24/7, Healing Music, Sleep Meditation, Relaxing Music, Insomnia, Spa, Study, Sleep",
+            "link": "https://youtu.be/e_iDohdv-gY",
+            "youtube": true
+        },
+        {
+            "radio": "CosmoSapiens",
+            "name": "Space Ambient Music 24/7 LIVE: 🎧 Relaxing Space Music for Sleep, Meditation",
+            "link": "https://youtu.be/wHGIlstqXMA",
+            "youtube": true
+        },
+        {
+            "radio": "24Relax",
+            "name": "Native American Flute Music and Rain - Relaxing Music, Meditation Music, Deep Sleep Music",
+            "link": "https://youtu.be/C9v3sZypcn4",
+            "youtube": true
+        },
+        {
+            "radio": "MusicLake",
+            "name": "Relaxation Music, Meditation, Focus, Chill, Nature Sounds",
+            "link": "http://104.251.118.50:8626/",
+            "youtube": false
+        },
+        {
+            "radio": "intraNature",
+            "name": "Meditation, Nature Sounds, Relaxation, Spa and Sleep Music Radio",
+            "link": "http://104.251.118.50:8793/",
+            "youtube": false
+        }
+    ],
+    "jazz":[
+        {
+            "radio": "Planet Radio",
+            "name": "Jazz FM",
+            "link": "https://stream-al.planetradio.co.uk/jazzhigh.aac",
+            "youtube": false
+        },
+        {
+            "radio": "Smooth Jazz Florida",
+            "name": null,
+            "link": "https://usa6.fastcast4u.com/proxy/wsjfhd?mp=/1",
+            "youtube": false
+        },
+        {
+            "radio": "Majestic Jukebox Radio ",
+            "name": null,
+            "link": "https://uk3.internet-radio.com/proxy/majesticjukebox?mp=/live",
+            "youtube": false
+        }
+    ]
+}
