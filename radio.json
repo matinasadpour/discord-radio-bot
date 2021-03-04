@@ -62,7 +62,7 @@
         {
             "radio": "Radio Bloodstream",
             "name": null,
-            "link": "https://uk1.internet-radio.com/proxy/bloodstream?mp=/live",
+            "link": "http://uk1.internet-radio.com:8294/",
             "youtube": false
         },
         {
@@ -82,7 +82,7 @@
         {
             "radio": "Classic Rock Radio",
             "name": null,
-            "link": "https://us5.internet-radio.com/proxy/wcrr?mp=/stream;",
+            "link": "http://us5.internet-radio.com:8267",
             "youtube": false
         },
         {
@@ -144,7 +144,7 @@
         {
             "radio": "MoveDaHouse",
             "name": null,
-            "link": "https://uk7.internet-radio.com/proxy/movedahouse?mp=/stream;",
+            "link": "http://uk7.internet-radio.com:8000/",
             "youtube": false
         },
         {
@@ -190,13 +190,13 @@
         {
             "radio": "Smooth Jazz Florida",
             "name": null,
-            "link": "https://usa6.fastcast4u.com/proxy/wsjfhd?mp=/1",
+            "link": "http://us4.internet-radio.com:8266/",
             "youtube": false
         },
         {
             "radio": "RADIO ESTILO LEBLON",
             "name": null,
-            "link": "https://us4.internet-radio.com/proxy/radioestiloleblon?mp=/stream;",
+            "link": "http://us4.internet-radio.com:8193/",
             "youtube": false
         }
     ]
