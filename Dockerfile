@@ -5,4 +5,4 @@ RUN apt-get install -y ffmpeg git make libtool autoconf automake g++ python3
 ADD package*.json .
 RUN npm i
 ADD . .
-CMD node .
+CMD [ "node", "app.js" ]

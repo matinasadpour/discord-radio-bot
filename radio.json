@@ -74,6 +74,18 @@
     ],
     "rock":[
         {
+            "radio": "Classic Rock Florida",
+            "name": null,
+            "link": "http://us4.internet-radio.com:8258/",
+            "youtube": false
+        },
+        {
+            "radio": "Classic Rock Radio",
+            "name": null,
+            "link": "https://us5.internet-radio.com/proxy/wcrr?mp=/stream;",
+            "youtube": false
+        },
+        {
             "radio": "Planet Radio",
             "name": "Planet Rock",
             "link": "https://stream-mz.planetradio.co.uk/planetrock.aac",
@@ -144,24 +156,6 @@
     ],
     "meditation":[
         {
-            "radio": "Yellow Brick Cinema - Relaxing Music",
-            "name": "🔴 Relaxing Music 24/7, Meditation Music, Healing Music, Spa Music, Zen, Sleep, Yoga, Study Music",
-            "link": "https://youtu.be/KO8Ing0d21A",
-            "youtube": true
-        },
-        {
-            "radio": "Yellow Brick Cinema - Relaxing Music",
-            "name": "🔴 Tibetan Meditation Music 24/7, Healing Music, Meditation Music, Spa, Study Music, Sleep, Yoga",
-            "link": "https://youtu.be/rsVWnhTkFuc",
-            "youtube": true
-        },
-        {
-            "radio": "Yellow Brick Cinema - Relaxing Music",
-            "name": "🔴 Sleep Music 24/7, Healing Music, Sleep Meditation, Relaxing Music, Insomnia, Spa, Study, Sleep",
-            "link": "https://youtu.be/e_iDohdv-gY",
-            "youtube": true
-        },
-        {
             "radio": "CosmoSapiens",
             "name": "Space Ambient Music 24/7 LIVE: 🎧 Relaxing Space Music for Sleep, Meditation",
             "link": "https://youtu.be/wHGIlstqXMA",
@@ -200,9 +194,9 @@
             "youtube": false
         },
         {
-            "radio": "Majestic Jukebox Radio ",
+            "radio": "RADIO ESTILO LEBLON",
             "name": null,
-            "link": "https://uk3.internet-radio.com/proxy/majesticjukebox?mp=/live",
+            "link": "https://us4.internet-radio.com/proxy/radioestiloleblon?mp=/stream;",
             "youtube": false
         }
     ]
